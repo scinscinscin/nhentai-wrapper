@@ -156,7 +156,6 @@ export class NhentaiWrapper {
 		try {
 			// fetches the html and throws an error if the response is not 200
 			const response = await this.axios.get(`/tag/${tagname}`);
-			console.log("successfully requested");
 			if (response.status !== 200) throw new Error();
 
 			// greps for the root html element

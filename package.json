@@ -1,6 +1,6 @@
 {
 	"name": "@scinorandex/nhentai-wrapper",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Promise-based nhentai wrapper",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
