@@ -1,0 +1,34 @@
+{
+	"name": "@scinorandex/nhentai-wrapper",
+	"version": "0.1.0",
+	"description": "Promise-based nhentai wrapper",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/scinscinscin/nhentai-wrapper.git"
+	},
+	"keywords": [
+		"nhentai",
+		"wrapper",
+		"hentai",
+		"anime"
+	],
+	"author": "scinorandex",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/scinscinscin/nhentai-wrapper/issues"
+	},
+	"homepage": "https://github.com/scinscinscin/nhentai-wrapper#readme",
+	"dependencies": {
+		"axios": "^0.24.0",
+		"node-html-parser": "^5.1.0",
+		"strict-uri-encode": "^2.0.0"
+	},
+	"devDependencies": {
+		"@types/strict-uri-encode": "^2.0.0"
+	}
+}
