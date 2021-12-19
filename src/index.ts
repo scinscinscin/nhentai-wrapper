@@ -208,6 +208,8 @@ export class NhentaiWrapper {
 	};
 }
 
+export * from "./NhentaiTypes";
+
 // Documentation
 // cover format https://t.nhentai.net/galleries/987560/cover.jpg
 // cover thumbnail format https://t2.nhentai.net/galleries/987560/thumb.jpg
